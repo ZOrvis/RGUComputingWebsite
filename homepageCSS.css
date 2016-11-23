@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+#introduction{
+    border: solid;
+}
+
 header{
     font-family: gordons;
     margin-right: auto;
