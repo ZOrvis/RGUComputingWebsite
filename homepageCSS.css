@@ -6,6 +6,9 @@
     width: 100%;
 }
 
+#contacts{
+    alignment: left;
+}
 #introduction{
     border: solid;
 }
@@ -41,5 +44,5 @@ body{
 
 @font-face {
     font-family: gordons;
-    src: url(Gordon-webfont.woff)
+    src: url()
 }
