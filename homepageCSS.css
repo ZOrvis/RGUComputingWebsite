@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Gordons;
+    src: url(Fonts/Gordon-webfont.woff)
+}
+
 #logo{
     width: 20%;
 }
@@ -23,20 +28,44 @@ main{
     margin-right: 10%;
 }
 header{
-    font-family: gordons;
+    font-family: Gordons;
     margin-right: auto;
     margin-left: auto;
     height: 15%;
 }
 
-#menubutton{
+#menubutton1{
     text-align: center;
-    font-family: gordons;
+    font-family: Gordons;
+    border: solid;
+}
+
+#menubutton2{
+    text-align: center;
+    font-family: Gordons;
+    border: solid;
+}
+
+#menubutton3{
+    text-align: center;
+    font-family: Gordons;
+    border: solid;
+}
+
+#menubutton4{
+    text-align: center;
+    font-family: Gordons;
+    border: solid;
+}
+
+#menubutton5{
+    text-align: center;
+    font-family: Gordons;
     border: solid;
 }
 
 body{
-    font-family: gordons;
+    font-family: Gordons;
     margin-right: 10%;
     margin-left: 10%;
 
@@ -47,7 +76,3 @@ footer{
     height: 20%;
 }
 
-@font-face {
-    font-family: gordons;
-    src: url()
-}
