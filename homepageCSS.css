@@ -10,6 +10,10 @@
     border: solid;
 }
 
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 header{
     font-family: gordons;
     margin-right: auto;
