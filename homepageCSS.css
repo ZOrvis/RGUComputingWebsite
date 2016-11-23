@@ -16,7 +16,9 @@ header{
 }
 
 body{
-    font-family: gordons
+    font-family: gordons;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
