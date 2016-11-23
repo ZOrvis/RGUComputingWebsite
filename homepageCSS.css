@@ -42,6 +42,11 @@ body{
 
 }
 
+footer{
+    border-top: solid;
+    height: 20%;
+}
+
 @font-face {
     font-family: gordons;
     src: url()
