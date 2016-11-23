@@ -2,6 +2,10 @@
     width: 20%;
 }
 
+#banner{
+    width: 100%;
+}
+
 header{
     font-family: gordons;
     margin-right: auto;
