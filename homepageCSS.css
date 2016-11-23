@@ -3,6 +3,10 @@
     src: url(Fonts/Gordon-webfont.woff)
 }
 
+#events{
+    height: 100%;
+}
+
 #logo{
     width: 20%;
 }
