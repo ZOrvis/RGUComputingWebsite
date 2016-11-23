@@ -9,8 +9,10 @@ header{
     height: 15%;
 }
 
-.menubar{
+#menubutton{
     text-align: center;
+    font-family: gordons;
+    border: solid;
 }
 
 body{
