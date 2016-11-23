@@ -11,3 +11,13 @@ header{
 .menubar{
     align-items: stretch;
 }
+
+body{
+    font-family: gordons
+
+}
+
+@font-face {
+    font-family: gordons;
+    src: url(Gordon-webfont.woff)
+}
