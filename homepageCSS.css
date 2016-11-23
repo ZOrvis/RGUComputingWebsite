@@ -76,8 +76,7 @@ body{
 }
 
 footer{
-
-    float: inherit;
+    display: inline-block;
 
     border-top: solid;
     height: 20%;
