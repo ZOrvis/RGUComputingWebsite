@@ -68,10 +68,13 @@ body{
     font-family: Gordons;
     margin-right: 10%;
     margin-left: 10%;
+    height: auto;
+    width: auto;
 
 }
 
 footer{
+
     border-top: solid;
     height: 20%;
 }
