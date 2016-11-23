@@ -1,11 +1,11 @@
 @font-face {
     font-family: Gordons;
-    src: url(Fonts/Gordon-webfont.woff)
+    src: url("Fonts/Gordon-webfont.woff");
 }
 
 
 h1, h2, h3, h4, h5{
-    font-family: Gordons;
+    font-family: Gordons, sans-serif;
 }
 #events{
     height: 100%;
