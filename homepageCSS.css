@@ -1,3 +1,13 @@
 #logo{
     width: 20%;
 }
+
+header{
+    margin-right: auto;
+    margin-left: auto;
+    height: 15%;
+}
+
+.menubar{
+    align-items: stretch;
+}
