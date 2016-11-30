@@ -11,6 +11,17 @@ border-width: 20px;
     border-color: #ffe2fb;
 }
 
+
 #cont2{
-    border-bottom: 10px;
+    border: solid;
+    height: auto;
+}
+
+#cont3{
+
+    border: solid;
+}
+
+#cont4{
+    border: solid;
 }
