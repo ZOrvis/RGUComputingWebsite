@@ -4,7 +4,18 @@ body{
 }
 
 #pic2{
-    border:15px solid #66CC33;
+    border:5px solid rgba(206, 177, 255, 0.57);
+
+}
+
+#pic3{
+    border:5px solid rgba(206, 177, 255, 0.57);
+
+}
+
+#pic4{
+    border:5px solid rgba(206, 177, 255, 0.57);
+
 }
 
 #cont2{
