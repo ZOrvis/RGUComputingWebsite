@@ -4,24 +4,31 @@ body{
 }
 
 #pic2{
-    height: 20%;
-    width: 20%;
+    border:5px solid rgba(206, 177, 255, 0.57);
 
-border-width: 20px;
-    border-color: #ffe2fb;
 }
 
+#pic3{
+    border:5px solid rgba(206, 177, 255, 0.57);
+
+}
+
+#pic4{
+    border:5px solid rgba(206, 177, 255, 0.57);
+
+}
 
 #cont2{
-    border: solid;
-    height: auto;
+    padding-bottom: 5%;
+    border-bottom: solid;
 }
 
 #cont3{
-
-    border: solid;
+    padding-bottom: 5%;
+    border-bottom: solid;
 }
 
 #cont4{
-    border: solid;
+    padding-bottom: 5%;
+    border-bottom: solid;
 }
