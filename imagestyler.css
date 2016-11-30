@@ -1,0 +1,16 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#pic2{
+    height: 20%;
+    width: 20%;
+
+border-width: 20px;
+    border-color: #ffe2fb;
+}
+
+#cont2{
+    border-bottom: 10px;
+}
