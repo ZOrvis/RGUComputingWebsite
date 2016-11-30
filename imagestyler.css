@@ -4,11 +4,7 @@ body{
 }
 
 #pic2{
-    height: 20%;
-    width: 20%;
-
-border-width: 20px;
-    border-color: #ffe2fb;
+    border:15px solid #66CC33;
 }
 
 #cont2{
