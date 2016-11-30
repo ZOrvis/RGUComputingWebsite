@@ -48,7 +48,7 @@ header{
 #menubutton1{
     text-align: center;
     font-family: Gordons;
-
+    color: white;
     background: #660066;
 
 }
@@ -56,7 +56,7 @@ header{
 #menubutton2{
     text-align: center;
     font-family: Gordons;
-    border: solid;
+    color: white;
     background: #660066;
 
 }
@@ -64,7 +64,7 @@ header{
 #menubutton3{
     text-align: center;
     font-family: Gordons;
-    border: solid;
+    color: white;
     background: #660066;
 
 
@@ -73,7 +73,7 @@ header{
 #menubutton4{
     text-align: center;
     font-family: Gordons;
-    border: solid;
+    color: white;
     background: #660066;
 
 
@@ -81,9 +81,8 @@ header{
 
 #menubutton5{
     text-align: center;
-
     font-family: Gordons;
-    border: solid;
+    color: white;
     background: #660066;
 
 
