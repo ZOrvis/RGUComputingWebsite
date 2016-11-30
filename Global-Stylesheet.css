@@ -46,8 +46,8 @@ header{
 }
 
 #menubutton1{
-    margin-right: 0.25%;
-    margin-left: 0.25%;
+    padding-left: 0.1%;
+    padding-right: 0.1%;
     text-align: center;
     font-family: Gordons;
     color: white;
@@ -56,8 +56,8 @@ header{
 }
 
 #menubutton2{
-    margin-right: 0.25%;
-    margin-left: 0.25%;
+    padding-left: 0.1%;
+    padding-right: 0.1%;
     text-align: center;
     font-family: Gordons;
     color: white;
@@ -66,8 +66,8 @@ header{
 }
 
 #menubutton3{
-    margin-right: 0.25%;
-    margin-left: 0.25%;
+    padding-left: 0.1%;
+    padding-right: 0.1%;
     text-align: center;
     font-family: Gordons;
     color: white;
@@ -77,8 +77,8 @@ header{
 }
 
 #menubutton4{
-    margin-right: 0.25%;
-    margin-left: 0.25%;
+    padding-left: 0.1%;
+    padding-right: 0.1%;
     text-align: center;
     font-family: Gordons;
     color: white;
@@ -88,8 +88,8 @@ header{
 }
 
 #menubutton5{
-    margin-right: 0.25%;
-    margin-left: 0.25%;
+    padding-left: 0.1%;
+    padding-right: 0.1%;
     text-align: center;
     font-family: Gordons;
     color: white;
