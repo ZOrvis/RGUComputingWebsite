@@ -49,7 +49,7 @@ header{
     text-align: center;
     font-family: Gordons;
     border: solid;
-    background: grey;
+    background: lightgray;
 
 }
 
@@ -57,7 +57,7 @@ header{
     text-align: center;
     font-family: Gordons;
     border: solid;
-    background: grey;
+    background: lightgray;
 
 }
 
@@ -65,7 +65,7 @@ header{
     text-align: center;
     font-family: Gordons;
     border: solid;
-    background: grey;
+    background: lightgray;
 
 
 }
@@ -74,7 +74,7 @@ header{
     text-align: center;
     font-family: Gordons;
     border: solid;
-    background: grey;
+    background: lightgray;
 
 
 }
@@ -82,8 +82,8 @@ header{
 #menubutton5{
     text-align: center;
     font-family: Gordons;
-    border: solid
-    background: grey;
+    border: solid;
+    background: lightgray;
 
 
 }
