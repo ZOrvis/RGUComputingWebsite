@@ -13,7 +13,6 @@ border-width: 20px;
 
 
 #cont2{
-    border: solid;
     height: auto;
 }
 
@@ -24,4 +23,8 @@ border-width: 20px;
 
 #cont4{
     border: solid;
+}
+
+#liner{
+    border-bottom: thin;
 }
