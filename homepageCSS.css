@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5{
 
 .eventbox{
     border: solid;
+    margin: 2%;
 
     height: 100%;
 }
