@@ -46,45 +46,54 @@ header{
 }
 
 #menubutton1{
+    padding-left: 0.1%;
+    padding-right: 0.1%;
     text-align: center;
     font-family: Gordons;
-    border: solid;
-    background: plum;
+    color: white;
+    background: #660066;
 
 }
 
 #menubutton2{
+    padding-left: 0.1%;
+    padding-right: 0.1%;
     text-align: center;
     font-family: Gordons;
-    border: solid;
-    background: plum;
+    color: white;
+    background: #660066;
 
 }
 
 #menubutton3{
+    padding-left: 0.1%;
+    padding-right: 0.1%;
     text-align: center;
     font-family: Gordons;
-    border: solid;
-    background: plum;
+    color: white;
+    background: #660066;
 
 
 }
 
 #menubutton4{
+    padding-left: 0.1%;
+    padding-right: 0.1%;
     text-align: center;
     font-family: Gordons;
-    border: solid;
-    background: plum;
+    color: white;
+    background: #660066;
 
 
 }
 
 #menubutton5{
+    padding-left: 0.1%;
+    padding-right: 0.1%;
     text-align: center;
-
     font-family: Gordons;
-    border: solid;
-    background: plum;
+    color: white;
+    background: #660066;
 
 
 }

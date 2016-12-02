@@ -7,47 +7,80 @@
     <link rel="stylesheet" href="Global-Stylesheet.css" type="text/css">
     <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
 </head>
+
 <body>
 
-<!--facebook-->
+<!--embedded facebook element-->
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!--facebook-->
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<!--end embedded facebook element-->
 
-<!--Header will contain the logo, login, and menu bar. Should be common among pages-->
+<!--The header will contain the logo, login, and menu bar.
+This code will be shared between each page in order to create a
+uniform feel to the website.-->
 <header>
-    <img src="csdmlogo.png" ID = "logo">
+    <img src="csdmlogo.png" ID="logo">
     <section id="menubar">
         <section class="grid-20" id="menubutton1">
             <h2><a href="homepage.html">Home</a></h2>
         </section>
         <section class="grid-20" id="menubutton2">
-            <h2>News and Events</h2>
+            <h2><a href="newsandevents.html">News and Events</a></h2>
         </section>
         <section class="grid-20" id="menubutton3">
-            <h2>Students</h2>
+            <h2><a href="studentPage.html">Students</a></h2>
         </section>
         <section class="grid-20" id="menubutton4">
-            <h2>Staff</h2>
+            <h2><a href="staffPage.html"> Staff</a></h2>
         </section>
         <section class="grid-20" id="menubutton5">
-            <h2>Contact Us</h2>
+            <h2><a href="contacts.html">Contact Us</a></h2>
         </section>
     </section>
     <img src="banner.png" id="banner">
 </header>
 
-<!--Main will contain the introduction and news articles-->
+
+<!--The main section will contain the images, titles and descriptions of
+    the lecturers for Computer Science-->
 <main class="grid-parent">
     <section class="grid-66" id="introduction">
+        <a href="http://imgur.com/muPMTO8"><img src="http://i.imgur.com/muPMTO8.png" title="source: imgur.com" />
+        </a>
+        <h2>Mike Crabb</h2>
+        <p>Mike is a lecturer in front and back end web development.</p>
+
+        <a href="http://imgur.com/fi51Ls8"><img src="http://i.imgur.com/fi51Ls8.png" />
+        </a>
+        <h2>John Isaacs</h2>
+        <p>John is a lecturer and course leader for the Computer Science BsC course.</p>
+
+        <a href="http://imgur.com/Xags7qE"><img src="http://i.imgur.com/Xags7qE.jpg" />
+        </a>
+        <h2>Roger McDermott</h2>
+        <p>Roger is the Undergraduate Programme Leader for the School of Computing Science and Digital media, and lectures in Software Design and Development amongst other things.</p>
+
+        <a href="http://imgur.com/phgvgbl"><img src="http://i.imgur.com/phgvgbl.png" />
+        </a>
+        <h2>Mark Zarb</h2>
+        <p>Mark is a lecturer and foundation year coordinator for the Computer Science programme. Mark lectures in programming, Processing and Arduino.</p>
+
+        <a href="http://imgur.com/RpByq5I"><img src="http://i.imgur.com/RpByq5I.png" />
+        </a>
+        <h2>Andrei Petrovski</h2>
+        <p>Andrei lectures in Computer Systems</p>
 
     </section>
+
     <section class="grid-33" id="events">
         <section class="eventbox" id="event1">
             <h2>Man invents type 3 diabetes</h2>
@@ -58,7 +91,10 @@
 
         </section>
         <section class="eventbox" id="facebook">
-            <div class="fb-page" data-href="https://www.facebook.com/RobertGordonUniComputing" data-tabs="timeline" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/RobertGordonUniComputing" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RobertGordonUniComputing">Robert Gordon University - School of Computing Science and Digital Media</a></blockquote></div>
+            <div class="fb-page" data-href="https://www.facebook.com/RobertGordonUniComputing" data-tabs="timeline" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/RobertGordonUniComputing" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RobertGordonUniComputing">Robert Gordon University - School of Computing Science and Digital Media</a>
+                </blockquote>
+            </div>
 
         </section>
     </section>
@@ -81,4 +117,5 @@
 
 
 </body>
+
 </html>
