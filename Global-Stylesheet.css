@@ -35,9 +35,11 @@ h1, h2, h3, h4, h5, p{
 
 a:link{
     color:white;
+    text-decoration: none;
 }
 a:visited{
     color:white;
+    text-decoration: none;
 }
 a:hover{
     color:whitesmoke;
