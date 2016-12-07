@@ -27,9 +27,9 @@ h1, h2, h3, h4, h5, p{
 }
 
 .eventbox{
-    background-color: whitesmoke;
+    background-color: #660066;
     border: solid;
-    border-color: #660066;
+
     margin-bottom: 2%;
     padding: 5%;
     text-align: center;
