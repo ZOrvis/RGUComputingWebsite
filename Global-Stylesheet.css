@@ -33,6 +33,19 @@ h1, h2, h3, h4, h5, p{
     height: 100%;
 }
 
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    color:whitesmoke;
+}
+
+a:active{
+    color:whitesmoke;
+}
 main{
     margin-left: 10%;
     margin-right: 10%;
