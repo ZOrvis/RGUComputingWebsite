@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, p{
 }
 
 .eventbox{
-    border: solid;
+    color: #660066;
     margin-bottom: 2%;
 
     height: 100%;
