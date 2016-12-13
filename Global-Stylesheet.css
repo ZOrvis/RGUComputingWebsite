@@ -3,12 +3,20 @@
     src: url("Fonts/Gordon-webfont.woff");
 }
 
-
 h1, h2, h3, h4, h5, p{
     font-family: Gordons, sans-serif;
 }
 #events{
     height: 100%;
+}
+
+#Title{
+    color: white;
+    background-color: #660066;
+    padding: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: large;
 }
 
 #logo{
@@ -23,13 +31,46 @@ h1, h2, h3, h4, h5, p{
     alignment: left;
 }
 #introduction{
+    padding-top: 2%;
+    border: solid;
+    background: white;
+}
+
+#RGyoU{
+    margin-bottom: 2%;
+    padding: 0;
+    background-color: whitesmoke;
+    border: solid;
+    border-color: whitesmoke;
+}
+
+#UniLink{
+    margin-bottom: 2%;
+    padding: 5%;
+    background-color: white;
+    border: solid;
+    border: #660066;
+}
+
+#RGUnion{
+    margin-bottom: 2%;
+    padding: 5%;
+    background-color: #1D111E;
+
+}
+
+#facebook{
+    padding: 0;
+    margin: 0;
+}
+
+#modules{
     border: solid;
 }
 
 .eventbox{
     background-color: #660066;
     color: white;
-
     margin-bottom: 2%;
     padding: 5%;
     text-align: center;
@@ -60,6 +101,7 @@ main{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 2.5%;
+    background-color: white;
 }
 header{
     font-family: Gordons;
@@ -127,6 +169,7 @@ body{
     margin-left: 10%;
     height: auto;
     width: auto;
+    background-color: #ece5ec;
 
 }
 
@@ -135,7 +178,8 @@ footer{
     width: 100%;
     margin-top: 5%;
     text-align: center;
-    border-top: solid;
     height: 20%;
+    background-color: #1f1f1f;
+    color: white;
 }
 
