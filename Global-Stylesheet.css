@@ -3,13 +3,6 @@
     src: url("Fonts/Gordon-webfont.woff");
 }
 
-
-
-footer{
-    background-color: #1f1f1f;
-    color: white;
-}
-
 h1, h2, h3, h4, h5, p{
     font-family: Gordons, sans-serif;
 }
@@ -177,5 +170,7 @@ footer{
     text-align: center;
     border-top: solid;
     height: 20%;
+    background-color: #1f1f1f;
+    color: white;
 }
 
