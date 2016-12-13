@@ -40,22 +40,26 @@ h1, h2, h3, h4, h5, p{
 
 #undergrad{
     padding-top: 2%;
+    padding-left: 5%;
     border: solid;
     background: white;
 }
 
 #postgrad{
     padding-top: 2%;
+    padding-left: 5%;
     border: solid;
     background: white;
 }
 #Part-Time{
     padding-top: 2%;
+    padding-left: 5%;
     border: solid;
     background: white;
 }
 #short coures{
     padding-top: 2%;
+    padding-left: 5%;
     border: solid;
     background: white;
 }
