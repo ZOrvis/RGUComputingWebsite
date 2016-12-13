@@ -33,6 +33,13 @@ h1, h2, h3, h4, h5, p{
     border: solid;
 }
 
+#UniLink{
+    margin-bottom: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    border: solid;
+}
+
 .eventbox{
     background-color: #660066;
     color: white;
