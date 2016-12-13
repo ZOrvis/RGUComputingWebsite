@@ -3,6 +3,10 @@
     src: url("Fonts/Gordon-webfont.woff");
 }
 
+main{
+    background-color: white;
+}
+
 footer{
     background-color: #1f1f1f;
     color: white;
