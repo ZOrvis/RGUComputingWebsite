@@ -10,111 +10,116 @@
 
 <body>
 
-<!--embedded facebook element-->
-<div id="fb-root"></div>
-<script>
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-<!--end embedded facebook element-->
+    <!--embedded facebook element-->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!--end embedded facebook element-->
 
-<!--The header will contain the logo, login, and menu bar.
+    <!--The header will contain the logo, login, and menu bar.
 This code will be shared between each page in order to create a
 uniform feel to the website.-->
-<header>
-    <img src="csdmlogo.png" ID="logo" alt="RGU Logo">
-    <section id="menubar">
-        <section class="grid-20" id="menubutton1">
-            <h2><a href="homepage.html">Home</a></h2>
+    <header>
+        <img src="csdmlogo.png" ID="logo" alt="RGU Logo">
+        <section id="menubar">
+            <section class="grid-20" id="menubutton1">
+                <h2><a href="homepage.html">Home</a></h2>
+            </section>
+            <section class="grid-20" id="menubutton2">
+                <h2><a href="newsandevents.html">News and Events</a></h2>
+            </section>
+            <section class="grid-20" id="menubutton3">
+                <h2><a href="studentPage.html">Students</a></h2>
+            </section>
+            <section class="grid-20" id="menubutton4">
+                <h2 class="activepage">Staff</h2>
+            </section>
+            <section class="grid-20" id="menubutton5">
+                <h2><a href="contacts.html">Contact Us</a></h2>
+            </section>
         </section>
-        <section class="grid-20" id="menubutton2">
-            <h2><a href="newsandevents.html">News and Events</a></h2>
-        </section>
-        <section class="grid-20" id="menubutton3">
-            <h2><a href="studentPage.html">Students</a></h2>
-        </section>
-        <section class="grid-20" id="menubutton4">
-            <h2 class="activepage">Staff</h2>
-        </section>
-        <section class="grid-20" id="menubutton5">
-            <h2><a href="contacts.html">Contact Us</a></h2>
-        </section>
-    </section>
-    <img src="banner.png" id="banner">
-</header>
+        <img src="banner.png" id="banner">
+    </header>
 
 
-<!--The main section will contain the images, titles and descriptions of
+    <!--The main section will contain the images, titles and descriptions of
 the lecturers for Computer Science-->
-<main class="grid-parent">
-    <section class="grid-66" id="introduction">
-        <img src="http://i.imgur.com/muPMTO8.png" title="source: imgur.com" alt="Mike Crabb" />
+    <main class="grid-parent">
+        <section class="grid-66" id="introduction">
+            <img src="http://i.imgur.com/muPMTO8.png" title="source: imgur.com" alt="Mike Crabb" />
 
-        <h2>Mike Crabb</h2>
-        <p>Mike is a lecturer in front & back end web development as well as web systems.</p>
+            <h2>Mike Crabb</h2>
+            <p>Mike is a lecturer in front & back end web development as well as web systems.</p>
 
-        <img src="http://i.imgur.com/fi51Ls8.png" alt="John Isaacs" />
+            <img src="http://i.imgur.com/fi51Ls8.png" alt="John Isaacs" />
 
-        <h2>John Isaacs</h2>
-        <p>John is a lecturer and course leader for the Computer Science BsC course.</p>
+            <h2>John Isaacs</h2>
+            <p>John is a lecturer and course leader for the Computer Science BsC course.</p>
 
-        <img src="http://i.imgur.com/Xags7qE.jpg" alt="Roger McDermott" />
+            <img src="http://i.imgur.com/Xags7qE.jpg" alt="Roger McDermott" />
 
-        <h2>Roger McDermott</h2>
-        <p>Roger is the Undergraduate Programme Leader for the School of Computing Science and Digital media, and lectures in Software Design and Development amongst other things.</p>
+            <h2>Roger McDermott</h2>
+            <p>Roger is the Undergraduate Programme Leader for the School of Computing Science and Digital media, and lectures in Software Design and Development amongst other things.</p>
 
-        <img src="http://i.imgur.com/phgvgbl.png" alt="Mark Zarb" />
+            <img src="http://i.imgur.com/phgvgbl.png" alt="Mark Zarb" />
 
-        <h2>Mark Zarb</h2>
-        <p>Mark is a lecturer and foundation year coordinator for the Computer Science programme. Mark primarily lectures in programming, Processing and Arduino.</p>
+            <h2>Mark Zarb</h2>
+            <p>Mark is a lecturer and foundation year coordinator for the Computer Science programme. Mark primarily lectures in programming, Processing and Arduino.</p>
 
-        <img src="http://i.imgur.com/RpByq5I.png" alt="Andrei Petrovski" />
+            <img src="http://i.imgur.com/RpByq5I.png" alt="Andrei Petrovski" />
 
-        <h2>Andrei Petrovski</h2>
-        <p>Andrei lectures in Computer Systems & Networks and has been a lecturer at RGU since 1995</p>
-
-    </section>
-
-    <!-- The sidebar will contain useful news and other relevant information for viewers-->
-    <section class="grid-33" id="events">
-        <section class="eventbox" id="RGyoU">
-            <img src="RGyoU-Logo.png" alt="RGyoU Login"/>
-        </section>
-        <section id="event2">
-            <a class="twitter-timeline" href="https://twitter.com/RGUComputing">Tweets by RGUComputing</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <h2>Andrei Petrovski</h2>
+            <p>Andrei lectures in Computer Systems & Networks and has been a lecturer at RGU since 1995</p>
 
         </section>
-        <!-- facebook sidebar element-->
-        <section class="eventbox" id="facebook">
-            <div class="fb-page" data-href="https://www.facebook.com/RobertGordonUniComputing" data-tabs="timeline" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-                <blockquote cite="https://www.facebook.com/RobertGordonUniComputing" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RobertGordonUniComputing">Robert Gordon University - School of Computing Science and Digital Media</a>
-                </blockquote>
-            </div>
+
+        <!-- The sidebar will contain useful news and other relevant information for viewers-->
+        <section class="grid-33" id="events">
+            <section class="eventbox" id="RGyoU">
+                <img src="RGyoU-Logo.png" alt="RGyoU Login" />
+            </section>
+            <section id="event2">
+                <a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/RGUComputing">Tweets by RGUComputing</a>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <!-- feedwind code START -->
+                <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="?widget_parameter=%7B%22sources%22%3A%5B%7B%22source%22%3A%22http%3A%2F%2Fwww.rgu.ac.uk%2FdmEvent%2FfeedRSS%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A0%2C%22height_by_article%22%3A%223%22%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2216%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22on%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22left%22%2C%22corner%22%3A%22rounded%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22off%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%224%22%2C%22auto_scroll_mc_speed%22%3A%2220%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%22%22%2C%22title_link%22%3A%22%22%2C%22title_bgcolor%22%3A%22%23660066%22%2C%22title_color%22%3A%22%23ffffff%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%22100%22%2C%22item_title_color%22%3A%22%232e7ec8%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22off%22%2C%22item_description_length%22%3A%22200%22%2C%22item_description_color%22%3A%22%23505659%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25b%20%25e%2C%20%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22thumbnail%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22youtube%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D"></script>
+                <!-- end feedwind code -->
+
+
+            </section>
+            <!-- facebook sidebar element-->
+            <section class="eventbox" id="facebook">
+                <div class="fb-page" data-href="https://www.facebook.com/RobertGordonUniComputing" data-tabs="timeline" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/RobertGordonUniComputing" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RobertGordonUniComputing">Robert Gordon University - School of Computing Science and Digital Media</a>
+                    </blockquote>
+                </div>
+            </section>
+            <!-- END facebook sidebar element-->
         </section>
-        <!-- END facebook sidebar element-->
-    </section>
 
-</main>
+    </main>
 
-<!--The footer will contain some social media buttons, some contact information, and a copyright-->
-<footer>
-    <section class="grid-50" id="copyright">
-        <p>COPYRIGHT</p>
+    <!--The footer will contain some social media buttons, some contact information, and a copyright-->
+    <footer>
+        <section class="grid-50" id="copyright">
+            <p>COPYRIGHT</p>
 
-    </section>
+        </section>
 
-    <section class="grid-50" id="contacts">
-        <p>DONT CONTACT US YOU FILTH</p>
+        <section class="grid-50" id="contacts">
+            <p>DONT CONTACT US YOU FILTH</p>
 
-    </section>
+        </section>
 
-</footer>
+    </footer>
 
 
 </body>
