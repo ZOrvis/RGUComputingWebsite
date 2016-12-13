@@ -3,6 +3,10 @@
     src: url("Fonts/Gordon-webfont.woff");
 }
 
+footer{
+    background-color: black;
+    color: white;
+}
 
 h1, h2, h3, h4, h5, p{
     font-family: Gordons, sans-serif;
