@@ -27,8 +27,9 @@ h1, h2, h3, h4, h5, p{
 }
 
 #RGyoU{
-    margin-bottom: 2%;
-    padding: 1%;
+    margin-bottom: 0%;
+    padding: 0%;
+    background-color: whitesmoke;
 }
 
 .eventbox{
