@@ -3,9 +3,7 @@
     src: url("Fonts/Gordon-webfont.woff");
 }
 
-main{
-    background-color: white;
-}
+
 
 footer{
     background-color: #1f1f1f;
@@ -101,6 +99,7 @@ main{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 2.5%;
+    background-color: white;
 }
 header{
     font-family: Gordons;
