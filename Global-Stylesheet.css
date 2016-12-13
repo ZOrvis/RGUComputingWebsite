@@ -28,14 +28,14 @@ h1, h2, h3, h4, h5, p{
 
 #RGyoU{
     margin-bottom: 2%;
-    padding: 5%;
+    padding: 0;
     background-color: whitesmoke;
     border: solid;
 }
 
 #UniLink{
     margin-bottom: 0;
-    padding: 0;
+    padding: 5%;
     background-color: white;
     border: solid;
     border: #660066;
