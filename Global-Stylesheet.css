@@ -36,6 +36,33 @@ h1, h2, h3, h4, h5, p{
     background: white;
 }
 
+#courses{
+    padding-top: 2%;
+    border: solid;
+    background: white;
+}
+
+#undergrad{
+    padding-top: 2%;
+    border: solid;
+    background: white;
+}
+
+#postgrad{
+    padding-top: 2%;
+    border: solid;
+    background: white;
+}
+#Part-Time{
+    padding-top: 2%;
+    border: solid;
+    background: white;
+}
+#short coures{
+    padding-top: 2%;
+    border: solid;
+    background: white;
+}
 #RGyoU{
     margin-bottom: 2%;
     padding: 0;
