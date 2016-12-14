@@ -106,7 +106,9 @@ h1, h2, h3, h4, h5, p{
 #modules{
     border: solid;
 }
-
+.GE{
+    font-size: 100%;
+}
 .eventbox{
     background-color: #660066;
     color: white;
